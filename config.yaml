@@ -1,0 +1,75 @@
+keywords:
+  include: [
+    "英国旅行写作",
+    "英国旅游散文",
+    "伦敦文学漫步",
+    "苏格兰故事",
+    "威尔士文化旅行",
+    "英国自然写作",
+    "英国旅行杂志选题",
+    "英国热门旅游文章",
+    "英国小说写作趋势",
+    "英国小说主题",
+    "英国写作比赛",
+    "英国旅行摄影",
+    "英国文学节",
+    "英国旅行博客热点",
+    "英国写作灵感",
+    "英国旅行叙事",
+    "英国短篇小说趋势",
+    "英国自由撰稿机会",
+    "英国文化报道",
+    "可持续旅行",
+    "独自旅行",
+    "文学节获奖作品"
+  ]
+  exclude: [
+    "中国",
+    "国内娱乐",
+    "明星八卦",
+    "游戏",
+    "综艺节目",
+    "韩流",
+    "偶像新闻",
+    "国产电视剧",
+    "短视频平台",
+    "网红营销",
+    "明星生活方式",
+    "抖音热搜",
+    "真人秀"
+  ]
+
+push:
+  email:
+    enable: true
+    accounts:
+      - smtp_host: smtp.gmail.com
+        smtp_port: 587
+        smtp_user: hui487512@gmail.com
+        smtp_pass: your_app_password
+        to: hui487512@gmail.com
+
+      - smtp_host: smtp.gmail.com
+        smtp_port: 587
+        smtp_user: fast07919@gmail.com
+        smtp_pass: your_app_password
+        to: fast07919@gmail.com
+
+      - smtp_host: smtp.qq.com
+        smtp_port: 465
+        smtp_user: 2670187516@qq.com
+        smtp_pass: your_app_password
+        to: 2670187516@qq.com
+
+      - smtp_host: smtp.office365.com
+        smtp_port: 587
+        smtp_user: baisu56@outlook.com
+        smtp_pass: your_app_password
+        to: baisu56@outlook.com
+
+rss:
+  sources:
+    - https://www.wanderlust.co.uk/rss/
+    - https://www.natgeotraveller.co.uk/rss
+    - https://www.lonelyplanet.com/news/rss
+    - https://www.timeout.com/london/rss
